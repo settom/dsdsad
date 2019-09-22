@@ -1,4 +1,5 @@
-       if(args[0].toLowerCase() == "leavea"){
+          if (args[0].includes == "!leavea-")
+   try {
           var msg = '!leave'
           if(args[0].toLowerCase() == "1"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
@@ -155,8 +156,7 @@
           if(args[1].toLowerCase() == "bot"){
             fortnite.party.leave();
             eg.communicator.sendMessage(data.friend.id, "The bot you are using has left!");
-          }
-          else{
+        } catch {
             eg.communicator.sendMessage(data.friend.id, "Please use !ready ON/OFF");
           }
       }
