@@ -1,31 +1,31 @@
-        if(args[0].toLowerCase() == "leavea"){
+       if(args[0].toLowerCase() == "leavea"){
           var msg = '!leave'
-          if(args[1].toLowerCase() == "1"){
+          if(args[0].toLowerCase() == "1"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
           }
-          if(args[1].toLowerCase() == "2"){
+          if(args[0].toLowerCase() == "2"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
           }
-          if(args[1].toLowerCase() == "3"){
+          if(args[0].toLowerCase() == "3"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT3_ID, msg);
           }
-          if(args[1].toLowerCase() == "4"){
+          if(args[0].toLowerCase() == "4"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT3_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT4_ID, msg);
           }
-          if(args[1].toLowerCase() == "5"){
+          if(args[0].toLowerCase() == "5"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT3_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT4_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT5_ID, msg);
           }
-          if(args[1].toLowerCase() == "6"){
+          if(args[0].toLowerCase() == "6"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT3_ID, msg);
@@ -33,7 +33,7 @@
             eg.communicator.sendMessage(DANG1172s_BOT5_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT6_ID, msg);
           }
-          if(args[1].toLowerCase() == "7"){
+          if(args[0].toLowerCase() == "7"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT3_ID, msg);
@@ -42,7 +42,7 @@
             eg.communicator.sendMessage(DANG1172s_BOT6_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT7_ID, msg);
           }
-          if(args[1].toLowerCase() == "8"){
+          if(args[0].toLowerCase() == "8"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT3_ID, msg);
@@ -52,7 +52,7 @@
             eg.communicator.sendMessage(DANG1172s_BOT7_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT8_ID, msg);
           }
-          if(args[1].toLowerCase() == "9"){
+          if(args[0].toLowerCase() == "9"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT3_ID, msg);
@@ -63,7 +63,7 @@
             eg.communicator.sendMessage(DANG1172s_BOT8_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT9_ID, msg);
           }
-          if(args[1].toLowerCase() == "10"){
+          if(args[0].toLowerCase() == "10"){
             eg.communicator.sendMessage(DANG1172s_BOT1_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT2_ID, msg);
             eg.communicator.sendMessage(DANG1172s_BOT3_ID, msg);
@@ -160,3 +160,4 @@
             eg.communicator.sendMessage(data.friend.id, "Please use !ready ON/OFF");
           }
       }
+      
